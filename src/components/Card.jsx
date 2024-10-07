@@ -10,7 +10,7 @@ const Card = () => {
             <img className="" src="/images/star.png" width="14px" alt="star" />
             <div>5.0 <span className="text-[#918E9B]">(6).USA</span></div>
         </div>
-        <div>Life lessons with Katie Zaferes</div>
+        <div className="leading-loose">Life lessons with Katie Zaferes</div>
         <div><span className="font-bold">From $136</span> / person</div>
       </div>
     </div>
