@@ -7,7 +7,14 @@ const App = () => {
     <div className="w-[550px] bg-white mt-12 rounded-lg font-poppins">
       <Navbar />
       <Hero />
-      <Card />
+      <Card 
+        img="zaferes.png"
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Life Lessons with Katie Zaferes"
+        price={136}
+      />
     </div>
   )
 }
