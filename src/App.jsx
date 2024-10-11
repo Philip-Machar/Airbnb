@@ -8,7 +8,7 @@ const App = () => {
     return (
       <Card
         key={cardData.key}
-        cardData={cardData}
+        {...cardData}
       />
     )
   })
