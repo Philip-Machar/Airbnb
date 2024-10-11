@@ -1,9 +1,16 @@
 const Card = ({coverImg, stats, location, title, price, openSpots}) => {
+  let badgeText;
+
+  if (openSpots === 0) {
+    badgeText = "SOLD OUT"
+  } else if (location === "Online") {
+    badgeText = "ONLINE"
+  }
   return (
     <div className="flex flex-col shrink-0 mt-3 text-[#222222]">
       <div className="relative">
         <img src={`/images/${coverImg}`} width="176px" height="235px" alt="img" />
-        {openSpots === 0 && <div className="absolute top-2 left-2 bg-white px-2 rounded-sm py-1 text-xs">SOLD OUT</div>}
+        {badgeText && <div className="absolute top-2 left-2 bg-white px-2 rounded-sm py-1 text-xs">{badgeText}</div>}
       </div>
       <div className="text-xs">
         <div className="flex items-center gap-2 mt-2">
