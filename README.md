@@ -4,7 +4,7 @@ A React-based clone of the Airbnb Experiences page, showcasing a responsive desi
 
 ![Airbnb Experiences Clone Screenshot](/public/images/airbnb.png)
 
-[Live Demo](your-live-demo-url-here)
+[Live Demo](https://airbnb-philip-machars-projects.vercel.app/)
 
 ## Description
 
