@@ -13,7 +13,7 @@ const App = () => {
     )
   })
   return (
-    <div className="w-[550px] bg-white mt-12 rounded-lg font-poppins pb-8">
+    <div className="w-[550px] bg-white mt-12 mb-12 rounded-lg font-poppins pb-8">
       <Navbar />
       <Hero />
       <div className="flex gap-5 mx-8 overflow-x-auto">
