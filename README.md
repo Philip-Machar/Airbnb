@@ -2,7 +2,7 @@
 
 A React-based clone of the Airbnb Experiences page, showcasing a responsive design with a navbar, hero section, and scrollable card components.
 
-![Airbnb Experiences Clone Screenshot](/public/images/project-screenshot.png)
+![Airbnb Experiences Clone Screenshot](/public/images/airbnb.png)
 
 [Live Demo](your-live-demo-url-here)
 
